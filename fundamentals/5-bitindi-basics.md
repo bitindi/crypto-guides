@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/05-main-l.png)
 
-# Unstoppable Wallet
+# Bitindi Wallet
 
 In this section we will focus on practical aspects and go through 'things to know' when using non-custodial wallet apps.
 
@@ -14,9 +14,9 @@ From user's perspective, basic expectations from any non-custodial wallet app sh
 
 Apart from the above must-haves, there may be other expectations from the wallet depending on the target user. Someone looking for extensive privacy may require extra private features which are not available in most wallet apps.
 
-> **Disclaimer: The [Unstoppable Wallet](https://unstoppable.money) was built by [Horizontal Systems](https://horizontalsystems.io), the company behind these guides.**
+> **Disclaimer: The [Bitindi Wallet](https://wallet.bitindi.com) was built by [Bitindi Chain](https://bitindi.com), the company behind these guides.**
 
-Below we will go through some important points to keep in mind when using non-custodial wallet apps. We are going to use Unstoppable wallet app to illustrate these important aspects. 
+Below we will go through some important points to keep in mind when using non-custodial wallet apps. We are going to use Bitindi wallet app to illustrate these important aspects. 
 
 ### 1. Setup / Restore 
 
@@ -25,7 +25,7 @@ Every non-custodial wallet starts either with the process of a wallet setup or m
 ![portrait](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/05-02-s.png)
 
 - The 'Create Wallet' button generates a new private key and shows it in a form of 12 words which needs to be backed up.
-- The 'Restore Wallet' option restores an existing wallet that might have been created earlier in Unstoppable or some other standard compliant wallet. 
+- The 'Restore Wallet' option restores an existing wallet that might have been created earlier in Bitindi  or some other standard compliant wallet. 
 
 Keep in mind that non-custodial wallets will require anywhere from a few minutes to a couple of hours to complete restore process. 
 
@@ -73,11 +73,11 @@ Historical prices provide an overview of how the price of the cryptocurrency has
 
 In addition to price charts it is helpful to have notifications for price changes.
 
-A wallet like Unstoppable can notify the user when the asset price has experienced a change over 2/3/5% in 24-hour period. 
+A wallet like Bitindi can notify the user when the asset price has experienced a change over 2/3/5% in 24-hour period. 
 
 ![portrait](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/05-07-s.png)
 
-Moreover, the Unstoppable can send alerts when the price trend for cryptocurrency changes indicating a good time to purchase or sell any given cryptocurrency.
+Moreover, the Bitindi can send alerts when the price trend for cryptocurrency changes indicating a good time to purchase or sell any given cryptocurrency.
 
 ### 7. Privacy
 
@@ -97,13 +97,13 @@ Certain points should be taken into consideration when evaluating non-custodial 
     
     While this method is convenient for the wallet provider it can potentially expose some info about user's balance and transactions.
     
-    To address this, some wallets like Unstoppable support restoring directly from the blockchain network itself rather than via a third-party server. This ensures that wallet provider has no clue about balance or transactions of the user.
+    To address this, some wallets like Bitindi support restoring directly from the blockchain network itself rather than via a third-party server. This ensures that wallet provider has no clue about balance or transactions of the user.
     
 - **Blockchain Privacy**
 
     Different blockchains provide varying level of privacy: when you transact in Bitcoin the level of privacy is higher than when compared to Ethereum. 
     
-    Certain non-custodial wallets may have additional features which increase the privacy on that specific blockchain. For instance, Unstoppable wallet app integrates certain instruments which make it significantly more difficult linking different blockchain transactions to a single entity. 
+    Certain non-custodial wallets may have additional features which increase the privacy on that specific blockchain. For instance, Bitindi wallet app integrates certain instruments which make it significantly more difficult linking different blockchain transactions to a single entity. 
     
 While many wallets brand themselves as non-custodial and peer to peer they may still have privacy risks. The most private wallet is the one which knows absolutely nothing about the user.
 
