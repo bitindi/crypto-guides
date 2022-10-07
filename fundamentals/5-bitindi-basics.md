@@ -22,8 +22,6 @@ Below we will go through some important points to keep in mind when using non-cu
 
 Every non-custodial wallet starts either with the process of a wallet setup or migration of the existing wallet.
 
-![portrait](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/05-02-s.png)
-
 - The 'Create Wallet' button generates a new private key and shows it in a form of 12 words which needs to be backed up.
 - The 'Restore Wallet' option restores an existing wallet that might have been created earlier in Bitindi  or some other standard compliant wallet. 
 
