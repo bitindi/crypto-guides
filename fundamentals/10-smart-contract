@@ -1,0 +1,106 @@
+![](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/01-main-l.png)
+
+#  Introduction
+Nick Szabo first described smart contracts in the 1990s. Back then, he defined a smart contract as a tool that formalizes and secures computer networks by combining protocols with user interfaces.
+
+Szabo discussed the potential use of smart contracts in various fields that involve contractual agreements - such as credit systems, payment processing, and content rights management.
+
+In the world of cryptocurrencies, we may define a smart contract as an application or program that runs on a blockchain. Typically, they work as a digital agreement that is enforced by a specific set of rules. These rules are predefined by computer code, which is replicated and executed by all network nodes.
+
+Blockchain smart contracts allow for the creation of trustless protocols. This means that two parties can make commitments via blockchain, without having to know or trust each other. They can be sure that if the conditions aren't fulfilled, the contract won't be executed. Other than that, the use of smart contracts can remove the need for intermediaries, reducing operational costs significantly.
+
+Although the Bitcoin protocol has been supporting smart contracts for many years, they were made popular by the creator and co-founder of Ethereum, Vitalik Buterin. It's worth noting, though, that each blockchain may present a different method of implementing smart contracts. 
+
+This article will focus on the smart contracts that run on the Ethereum Virtual Machine (EVM), which is an essential part of the Ethereum blockchain.
+
+
+
+# How do they work?
+In simple terms, a smart contract works as a deterministic program. It executes a particular task when and if certain conditions are met. As such, a smart contract system often follows "if… then…" statements. But despite the popular terminology, smart contracts are not legal contracts, nor smart. They are just a piece of code running on a distributed system (blockchain).
+
+On the Ethereum network, smart contracts are responsible for executing and managing the blockchain operations that take place when users (addresses) interact with each other. Any address that is not a smart contract is called an externally owned account (EOA). Thus, smart contracts are controlled by computer code, and EOAs are controlled by users.
+
+Basically, Ethereum smart contracts are made of a contract code and two public keys. The first public key is the one provided by the creator of the contract. The other key represents the contract itself, acting as a digital identifier that is unique to each smart contract.
+
+The deployment of any smart contract is made through a blockchain transaction, and they can only be activated when called by an EOA (or by other smart contracts). However, the first trigger is always caused by an EOA (user).
+
+
+
+# Key features
+An Ethereum smart contract often presents the following characteristics:
+
+Distributed. Smart contracts are replicated and distributed in all nodes of the Ethereum network. This is one of the major differences from other solutions that are based on centralized servers.
+
+Deterministic. Smart contracts only perform the actions they were designed to, given the requirements are met. Also, the outcome will always be the same, no matter who executes them.
+
+Autonomous. Smart contracts can automate all sorts of tasks, working like a self-executing program. In most cases, though, if a smart contract isn't triggered, it will stay "dormant" and won't perform any action.
+
+Immutable. Smart contracts can't be changed after deployed. They can only be "deleted" if a particular function was previously implemented. Thus, we may say that smart contracts can provide tamper-proof code.
+
+Customizable. Before deployment, smart contracts can be coded in many different ways. So, they can be used to create many types of decentralized applications (DApps). This is related to the fact that Ethereum is a Turing complete blockchain.
+
+Trustless. Two or more parties can interact via smart contracts without knowing or trusting each other. In addition, blockchain technology ensures that data is accurate.
+
+Transparent. Since smart contracts are based on a public blockchain, their source code is not only immutable but also visible to anyone.
+
+
+
+# Can I change or delete a smart contract?
+It's impossible to add new functions to an Ethereum smart contract after deployed. However, if its creator includes a function called SELFDESTRUCT in the code, they are able to "delete" the smart contract in the future - and replace it with a new one. In contrast, though, if the function isn't included in the code beforehand, they won't be able to delete it.
+
+Notably, the so-called upgradeable smart contracts allow developers to have more flexibility over contracts' immutability. There are many ways to create upgradeable smart contracts, with varying degrees of complexity.
+
+Taking a simplified example, let’s imagine that a smart contract is divided into multiple smaller contracts. Some of them are designed to be immutable, while others have the 'delete' function enabled. This means that part of the code (smart contracts) can be deleted and replaced, while other functionalities remain intact.
+
+
+
+# Advantages and use cases
+As programmable code, smart contracts are highly customizable and can be designed in many different ways, offering many kinds of services and solutions.
+
+As decentralized and self-executing programs, smart contracts may provide increased transparency and reduced operational costs. Depending on the implementation, they can also increase efficiency and reduce bureaucratic expenses.
+
+Smart contracts are particularly useful in situations that involve the transfer or exchange of funds between two or more parties.
+
+In other words, smart contracts can be designed for a wide variety of use cases. Some examples include the creation of tokenized assets, voting systems, crypto wallets, decentralized exchanges, games, and mobile applications. They may also be deployed along with other blockchain solutions that are tackling the fields of healthcare, charity, supply chain, governance, and decentralized finance (DeFi).
+
+
+
+# ERC-20
+Tokens issued on the Ethereum blockchain follow a standard known as ERC-20. The standard describes the core functions of all Ethereum-based tokens. As such, these digital assets are often referred to as ERC-20 tokens, and they represent a great portion of the existing cryptocurrencies.
+
+Many blockchain companies and startups deployed smart contracts in order to issue their digital tokens on the Ethereum network. After the issuance, the majority of these companies distributed their ERC-20 tokens through Initial Coin Offering (ICO) events. In most cases, the use of smart contracts enabled the exchange of funds, and distribution of tokens, in a trustless and efficient way.
+
+
+
+# Limitations
+Smart contracts are made of computer code written by humans. This brings numerous risks as the code is subject to vulnerabilities and bugs. Ideally, they should be written and deployed by experienced programmers, especially when involving sensitive information or large amounts of money.
+
+Other than that, some argue that centralized systems can provide most of the solutions and functionalities offered by smart contracts. The main difference is that smart contracts are running on a distributed P2P network, rather than a centralized server. And because they are based on a blockchain system, they tend to be either immutable or very hard to change.
+
+Being immutable can be great in some situations, but very bad in others. For example, when a Decentralized Autonomous Organization (DAO) called "The DAO" got hacked in 2016, millions of ether (ETH) were stolen due to flaws in their smart contract code.
+
+Since their smart contract was immutable, developers were unable to fix the code. This eventually led to a hard fork, giving birth to a second Ethereum chain. Simply put, one chain "reverted" the hack and returned the funds to the rightful owners (this is part of the current Ethereum blockchain). The other chain decided to not interfere with the hack, stating that things that happen on a blockchain should never be changed (this chain is now called Ethereum Classic).
+
+It's important to note that the problem didn't come from the Ethereum blockchain. Instead, it was caused by a faulty smart contract implementation.
+
+Another limitation of smart contracts is related to their uncertain legal status. Not only because it's in a grey area in most countries, but also because smart contracts don't suit the current legal framework.
+
+For example, many contracts require both parties to be properly identified and over 18 years old. The pseudonymity provided by blockchain technology, combined with the lack of intermediaries, may threaten those requirements. While there are potential solutions to this, the legal enforceability of smart contracts is a real challenge - especially when it comes to borderless, distributed networks.
+
+
+
+# Criticism
+Some blockchain enthusiasts see smart contracts as a solution that will soon replace and automate a great part of our commercial, and bureaucratic systems. While this is a possible reality, it's probably far from becoming the norm.
+
+Smart contracts are certainly an interesting piece of technology. But, being distributed, deterministic, transparent, and somewhat immutable can make them less appealing in some situations.
+
+Essentially, criticism relies on the fact that smart contracts are not a suitable solution for many real-world problems. In fact, some organizations are better off using conventional server-based alternatives. 
+
+When compared to smart contracts, centralized servers are easier and cheaper to maintain, and tend to present a higher efficiency in terms of speed and cross-network communication (interoperability).
+
+
+
+# Closing thoughts
+There is no doubt that smart contracts caused a big impact in the world of cryptocurrencies, and they certainly revolutionized the blockchain space. While the end-users may not interact directly with smart contracts, these are likely to power a wide range of applications in the future, ranging from financial services to supply chain management.
+
+Together, smart contracts and blockchain have the potential to disrupt almost all areas of our society. But only time will tell if these groundbreaking technologies will manage to overcome the many barriers to large-scale adoption.
