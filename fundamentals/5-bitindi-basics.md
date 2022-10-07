@@ -53,7 +53,7 @@ While for some cryptocurrencies transactions are cheap for other the fees can be
 
 While there are a lot of different cryptocurrencies there is lack of information describing these projects in accessible manner. Many projects are fairly obscure even for the experienced newcomers with a technical background.
 
-Unstoppable aims to provide a comprehensive overview for various cryptocurrencies in simple terms.
+Bitindi aims to provide a comprehensive overview for various cryptocurrencies in simple terms.
 
 ![portrait](https://raw.githubusercontent.com/horizontalsystems/blockchain-crypto-guides/master/fundamentals/images/05-05-s.png)
 
